@@ -12,6 +12,9 @@ import org.springframework.data.domain.Sort;
 @Data
 public class PageRequestDTO {
 
+  /*
+    화면에서 전달되는 목록 관련된 데이터에 대한 DTO
+   */
   private int page;
   private int size;
 
