@@ -9,7 +9,9 @@ public interface GuestbookService {
 
   Long register(GuestbookDTO dto);
 
-  PageResultDTO<GuestbookDTO, Guestbook> getList(PageRequestDTO requestDTO);
+  PageResultDTO<GuestbookDTO, Guestbook> getList(PageRequestDTO requestDTO);  //전체 리스트 조회
+
+  GuestbookDTO read(Long gno);  //상세페이지
 
   /* java8버전부터 인터페이스에 실제 내용을 가지는 코드를 default 키워드로
     생성할 수 있다. 이를 이용하면 추상 클래스를 통해서 전달해야 하는 실제 코드를
