@@ -12,7 +12,7 @@ import org.springframework.data.domain.Pageable;
 public class PageResultDTO<DTO, EN> {
 
   /*
-    화면에서 피룡한 결과에 대한 DTO
+    화면에서 필요한 결과에 대한 DTO
    */
 
   //DTO리스트
